@@ -71,7 +71,7 @@ function App() {
 
     wordLetters = wordLetters.map((l) => l.toLowerCase())
 
-    console.log(word, category)
+    //console.log(word, category)
     //console.log(wordLetters)
 
     // fill states
