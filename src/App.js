@@ -175,11 +175,6 @@ function App() {
     </div>
   );
 }
-//teste
-const teste = () =>{
-  setInterval()
-}
 
-teste()
 
 export default App;
