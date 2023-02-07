@@ -55,6 +55,7 @@ function App() {
   
    const startGamenew = () =>{
     setGameStage(stages[1].name)  
+    setScore(0)
   }
 
   //starts the secret word game
@@ -133,17 +134,19 @@ function App() {
 
   // check win condition
 
+  
   useEffect (() => {
     const uniqueLetters = [...new Set(letters)]
     
     // win condition
     if(guessedLetters.length === uniqueLetters.length){
-      setScore((actualScore) => (actualScore +=100))
+      setScore((actualScore) => (actualScore =+ 100))
 
     // restart game with new word
-    startGame()
+      startGame()
     
     }
+   
    
   }, [guessedLetters, letters , startGame])
 

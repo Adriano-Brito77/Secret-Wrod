@@ -16,8 +16,8 @@ body{
         rgba(9, 35, 175, 1) 0%,
         rgba(0, 0, 0, 1)100%
         );
-    color:white
-
+    color:white;
+    overflow-y: hidden;
 }
 
 button {
