@@ -1,0 +1,39 @@
+header{
+    margin: 0;
+    padding: 0;
+
+}
+html,body{
+    height:100%;
+}
+
+body{
+    font-family:Helvetica;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(
+        180deg,
+        rgba(9, 35, 175, 1) 0%,
+        rgba(0, 0, 0, 1)100%
+        );
+    color:white
+
+}
+
+button {
+    background: #1646a0;
+    color: #fff;
+    padding: 0 45px;
+    border: 2px solid #FFF;
+    border-radius: 25px;/*grau da borda deixando arrendondada*/
+    height: 50px;/*altura botão*/
+    text-transform: uppercase;/*letras maiusculas*/
+    font-weight: bold;/*letras negrito*/
+    font-size: 1.2em; /*Tamanho das letras */
+    cursor: pointer; /*mudar cursor para */
+    transition: .4s; /*Tansição para o hover(hover mudança de cor do botão) */
+}
+
+button:hover{
+    background-color: #0923af;
+}
