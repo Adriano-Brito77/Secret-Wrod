@@ -71,7 +71,7 @@ function App() {
 
     wordLetters = wordLetters.map((l) => l.toLowerCase())
 
-    //console.log(word, category)
+    console.log(word, category)
     //console.log(wordLetters)
 
     // fill states
@@ -140,7 +140,7 @@ function App() {
     
     // win condition
     if(guessedLetters.length === uniqueLetters.length){
-      setScore((actualScore) => (actualScore =+ 100))
+      setScore((actualScore) => (actualScore + 100))
 
     // restart game with new word
       startGame()

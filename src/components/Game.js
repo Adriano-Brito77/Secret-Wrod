@@ -56,6 +56,7 @@ const Game = ({
           onChange={(e) => setLetter(e.target.value)}
           value = {letter}
           ref={letterImputRef}
+          autoComplete="off"
 
           />
           <button>Jogar!</button>
