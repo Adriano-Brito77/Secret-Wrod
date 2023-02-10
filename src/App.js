@@ -53,7 +53,7 @@ function App() {
 
   },[words])
   
-   const startGamenew = () =>{
+   const startGameNew = () =>{
     setGameStage(stages[1].name)  
     setScore(0)
   }
@@ -161,7 +161,7 @@ function App() {
 
   return (
     <div className="App">
-      {gameStage === "start" && <StartScreen startGamenew = {startGamenew}/>}
+      {gameStage === "start" && <StartScreen startGameNew = {startGameNew}/>}
       {gameStage === "game" && 
       <Game 
         verifyLetter = {verifyLetter}
